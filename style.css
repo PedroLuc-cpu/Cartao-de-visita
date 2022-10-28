@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+body{
+    background: rgb(20, 69, 124);
+}
+
+header>h1{
+    padding-top: 2rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    padding-bottom: 1rem;
+
+}
+
+.ancura-bemasoft>li>a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.ancura-bemasoft>li{
+    border: 1px solid black;
+}
+
