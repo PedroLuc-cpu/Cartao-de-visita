@@ -7,8 +7,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
 body{
-    background: rgb(20, 69, 124);
+    background: #00428E;
 }
+header{
+    background: #D32323;
+}
+
 
 header>h1{
     padding-top: 2rem;
@@ -17,6 +21,9 @@ header>h1{
     color: aliceblue;
     padding-bottom: 1rem;
 
+}
+.ancura-bemasoft{
+    padding: 0 2rem;
 }
 
 .ancura-bemasoft>li>a{
@@ -30,6 +37,11 @@ header>h1{
 
 }
 .ancura-bemasoft>li{
-    border: 1px solid black;
+list-style-type: none;
+padding: 1rem;
 }
 
+.img-web{
+    width: 48px;
+    height: 48px;
+}
