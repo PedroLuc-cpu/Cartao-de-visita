@@ -7,10 +7,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
 body{
-    background: #00428E;
+    background-color: rgb(240, 248, 255);
 }
 header{
     background: #D32323;
+    margin-bottom: 1.5rem;
 }
 
 
@@ -23,7 +24,8 @@ header>h1{
 
 }
 .ancura-bemasoft{
-    padding: 0 2rem;
+    padding: 0 .5rem;
+    margin-bottom: 5rem;
 }
 
 .ancura-bemasoft>li>a{
@@ -31,17 +33,37 @@ header>h1{
     align-items: center;
     text-decoration: none;
     font-size: 1.2rem;
-    color: aliceblue;
+    color: rgb(23, 23, 24);
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 
 
 }
 .ancura-bemasoft>li{
 list-style-type: none;
 padding: 1rem;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.137);
+}
+.ancura-bemasoft>li>a>img{
+    padding: 5px;
 }
 
 .img-web{
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
+}
+
+.rodape-bemasoft{
+    background: #00428E;
+
+}
+
+.rodape-bemasoft>address{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 221px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
 }
