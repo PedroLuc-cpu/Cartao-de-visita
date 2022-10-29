@@ -11,10 +11,11 @@ body{
 }
 header{
     background: url(img/logo.png);
-    margin-bottom: 1.5rem;
     background-position: center;
     height: 110px;
     background-repeat: no-repeat;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.137);
+
     
 }
 
@@ -64,9 +65,23 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.137);
 .rodape-bemasoft>address{
     color: white;
     font-family: 'Roboto', sans-serif;
-    height: 221px;
+    height: 220px;
     display: flex;
     align-items: center;
     text-align: center;
 
+}
+
+.aling-rodape-bema{
+    /* display: grid;
+    justify-content: center; */
+    padding: 1rem;
+}
+.aling-rodape-bema>p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: .2rem;
+    text-align: center;
 }
