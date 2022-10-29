@@ -7,11 +7,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
 body{
-    background-color: rgb(240, 248, 255);
+    background-color: rgb(255, 255, 255);
 }
 header{
-    background: #D32323;
+    background: url(img/logo.png);
     margin-bottom: 1.5rem;
+    background-position: center;
+    height: 110px;
+    
 }
 
 
@@ -25,7 +28,6 @@ header>h1{
 }
 .ancura-bemasoft{
     padding: 0 .5rem;
-    margin-bottom: 5rem;
 }
 
 .ancura-bemasoft>li>a{
