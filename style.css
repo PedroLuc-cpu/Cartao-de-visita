@@ -59,14 +59,9 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.137);
 
 .rodape-bemasoft{
     background: #00428E;
-<<<<<<< HEAD
-    
-
-=======
     position: fixed;
     bottom: 0px;
     width: 100%;
->>>>>>> 07a9bb4ec93957ef6b474fbd83e2fb7fb303f640
 }
 
 .rodape-bemasoft>address{
